@@ -29,12 +29,5 @@ function ProgressBar() {
   );
 }
 
-function Bar() {
-  return (
-    <div className="App">
-      <ProgressBar />
-    </div>
-  );
-}
 
-export default Bar;
+export default ProgressBar;
