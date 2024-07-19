@@ -25,13 +25,14 @@ background-color:antiquewhite;
 justify-content: center;
 }
 .tab-container {
-  width: 80%;
+  width: 40%;
   margin: 0 auto;
 }
 
 .tabs {
   display: flex;
   border-bottom: 1px solid #ccc;
+  justify-content: space-evenly;
 }
 
 .tab {
