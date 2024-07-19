@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <>
+    <main>
       <div className="wrapper_counter">
         <h1>{counterState}</h1>
 
@@ -50,26 +50,26 @@ function App() {
         <div className="tab-content">
           {activeTab === "Tab1" && (
             <div id="Tab1" className="content active">
-              <h2>Tab 1 Content</h2>
-              <p>This is the content of Tab 1.</p>
+              <h2> 1 chi sahifa</h2>
+              <p> 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci nulla provident libero, eum, cumque voluptas dolor pariatur deserunt ipsum maxime fugit maiores nobis delectus!</p>
             </div>
           )}
           {activeTab === "Tab2" && (
             <div id="Tab2" className="content active">
-              <h2>Tab 2 Content</h2>
-              <p>This is the content of Tab 2.</p>
+              <h2> 2 chi sahifa</h2>
+              <p> 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci nulla provident libero, eum, cumque voluptas dolor pariatur deserunt ipsum maxime fugit maiores nobis delectus!</p>
             </div>
           )}
           {activeTab === "Tab3" && (
             <div id="Tab3" className="content active">
-              <h2>Tab 3 Content</h2>
-              <p>This is the content of Tab 3.</p>
+              <h2> 3 chi sahifa</h2>
+              <p> 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adipisci nulla provident libero, eum, cumque voluptas dolor pariatur deserunt ipsum maxime fugit maiores nobis delectus!</p>
             </div>
           )}
         </div>
       </div>
       <SocialMediaPost/>
-    </>
+    </main>
   );
 }
 
