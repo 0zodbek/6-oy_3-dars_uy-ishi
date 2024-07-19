@@ -21,8 +21,8 @@ function SocialMediaPost() {
   };
   return (
     <div className="post-container">
-      <h2>My Social Media Post</h2>
-      <p>This is an example of a social media post. You can like or dislike it!</p>
+      <h2>ijtimoiy sahifam</h2>
+      <p>Siz yoqtirishingiz yoki yoqtirmasligingiz mumkin!</p>
       <div className="buttons">
         
         <span>❤️{counter(likes,dislikes)}</span>
