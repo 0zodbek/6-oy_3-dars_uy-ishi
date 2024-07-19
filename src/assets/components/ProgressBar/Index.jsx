@@ -22,8 +22,8 @@ function ProgressBar() {
        
       </div> {progress}%
       <div className="buttons">
-        <button onClick={handleIncrease} className="increase-button">Increase</button>
-        <button onClick={handleDecrease} className="decrease-button">Decrease</button>
+        <button onClick={handleIncrease} className="increase-button">Increase 10%</button>
+        <button onClick={handleDecrease} className="decrease-button">Decrease 10%</button>
       </div>
     </div>
   );

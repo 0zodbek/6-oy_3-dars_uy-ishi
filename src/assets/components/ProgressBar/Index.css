@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    width: 50%;
   }
   
   .progress-container {
@@ -19,7 +20,10 @@
     color: white;
     line-height: 30px;
     transition: width 0.3s ease;
+    margin-bottom: 30px;
   }
+
+
   
   .buttons {
     margin-top: 20px;
