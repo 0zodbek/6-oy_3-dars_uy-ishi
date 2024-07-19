@@ -2,6 +2,7 @@ import react, { useState } from "react";
 import "./App.css";
 import Bar from "./assets/components/ProgressBar"
 import Likes from "./assets/components/SocialMediaPost"
+import Gallery from "./assets/components/Gallarey"
 function App() {
   const [activeTab, setActiveTab] = useState("Tab1");
 
@@ -71,6 +72,7 @@ function App() {
       </div>
       <Likes/>
       <Bar/>
+      <Gallery/>
     </main>
   );
 }
