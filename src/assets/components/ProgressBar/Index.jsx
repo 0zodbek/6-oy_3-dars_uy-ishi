@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Index.css';
+import "./index.css"
 
 function ProgressBar() {
   const [progress, setProgress] = useState(0);
@@ -19,15 +19,22 @@ function ProgressBar() {
   return (
     <div className="progress-container">
       <div className="progress-bar" style={{ width: `${progress}%` }}>
-       
-      </div> {progress}%
+        
+      </div>{progress}%
       <div className="buttons">
-        <button onClick={handleIncrease} className="increase-button">Increase 10%</button>
-        <button onClick={handleDecrease} className="decrease-button">Decrease 10%</button>
+        <button onClick={handleIncrease} className="increase-button">Increase</button>
+        <button onClick={handleDecrease} className="decrease-button">Decrease</button>
       </div>
     </div>
   );
 }
 
+function App() {
+  return (
+    <div className="App">
+      <ProgressBar />
+    </div>
+  );
+}
 
-export default ProgressBar;
+export default App;

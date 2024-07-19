@@ -1,7 +1,7 @@
 import react, { useState } from "react";
 import "./App.css";
-import SocialMediaPost from "./assets/components/SocialMediaPost";
-import ProgressBar from "./assets/components/ProgressBar";
+import Bar from "./assets/components/ProgressBar"
+import Likes from "./assets/components/SocialMediaPost"
 function App() {
   const [activeTab, setActiveTab] = useState("Tab1");
 
@@ -69,8 +69,8 @@ function App() {
           )}
         </div>
       </div>
-      <SocialMediaPost/>
-      <ProgressBar/>
+      <Likes/>
+      <Bar/>
     </main>
   );
 }

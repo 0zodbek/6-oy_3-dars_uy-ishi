@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Index.css';
+import './index.css';
 
 function SocialMediaPost() {
   const [likes, setLikes] = useState(0);
