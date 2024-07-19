@@ -1,6 +1,6 @@
 import react, { useState } from "react";
 import "./App.css";
-import SocialMediaPost from "./assets/components/Like";
+import SocialMediaPost from "./assets/components/SocialMediaPost";
 import ProgressBar from "./assets/components/ProgressBar";
 function App() {
   const [activeTab, setActiveTab] = useState("Tab1");
